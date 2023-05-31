@@ -92,7 +92,7 @@ macro_rules! use_sv48 {
     };
 }
 #[cfg(target_arch = "riscv64")]
-use_sv48!();
+use_sv39!();
 
 #[cfg(target_arch = "riscv32")]
 use_sv32!();
